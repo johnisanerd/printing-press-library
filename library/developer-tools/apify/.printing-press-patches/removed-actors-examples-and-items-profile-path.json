@@ -8,6 +8,7 @@
   "reason": "Every documented news example failed with 404, and a page-shaped Actor yielded one empty Item per page, defeating --only-new dedupe, search and digest; the array path stays profile-driven because the generator cannot know an Actor's dataset shape.",
   "files": [
     "internal/normalize/normalize.go",
+    "internal/normalize/normalize_test.go",
     "internal/normalize/profiles/google-news-api.yaml",
     "internal/cli/ab.go",
     "internal/cli/run.go",
